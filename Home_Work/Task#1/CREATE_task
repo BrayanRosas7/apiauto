@@ -1,0 +1,46 @@
+curl --location --request POST "https://api.todoist.com/rest/v2/tasks" \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $ToDo_Token" \
+--data-raw '{
+    "content": "Buy Cofee",
+    "description": "",
+    "due": {
+        "date": "2023-09-19",
+        "is_recurring": false,
+        "datetime": "2023-09-18T12:00:00.000000Z",
+        "string": "tomorrow at 12",
+        "timezone": "Europe/Moscow",
+        "due_lang": "en"
+    },
+    "duration": null,
+    "labels": ["Drink", "Shopping"],
+    "order": 1,
+    "priority": 1,
+    "project_id": "2319693086"
+}'
+
+
+Response :
+	"id": "7240001492",
+	"assigner_id": null,
+	"assignee_id": null,
+	"project_id": "2319693086",
+	"section_id": null,
+	"parent_id": null,
+	"order": 1,
+	"content": "Buy Cofee",
+	"description": "",
+	"is_completed": false,
+	"labels": [
+		"Drink",
+		"Shopping"
+	],
+	"priority": 1,
+	"comment_count": 0,
+	"creator_id": "45712826",
+	"created_at": "2023-09-18T18:35:18.703586Z",
+	"due": null,
+	"url": "https://todoist.com/showTask?id=7240001492",
+	"duration": null
+}
+

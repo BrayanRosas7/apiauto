@@ -1,0 +1,24 @@
+curl --location --request GET "https://api.todoist.com/rest/v2/tasks/$id_task" --header "Authorization: Bearer $ToDo_Token"
+{
+	"id": "7239749464",
+	"assigner_id": null,
+	"assignee_id": null,
+	"project_id": "2319693086",
+	"section_id": null,
+	"parent_id": null,
+	"order": 6,
+	"content": "Drink Coffee",
+	"description": "",
+	"is_completed": true,
+	"labels": [
+		"Food",
+		"Shopping"
+	],
+	"priority": 1,
+	"comment_count": 0,
+	"creator_id": "45712826",
+	"created_at": "2023-09-18T17:14:20.473085Z",
+	"due": null,
+	"url": "https://todoist.com/showTask?id=7239749464",
+	"duration": null
+
