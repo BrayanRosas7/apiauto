@@ -1,3 +1,0 @@
-curl --location --request POST "https://api.todoist.com/rest/v2/tasks/7239749464/close" --header "Authorization: Bearer $ToDo_Token"
-
-Response : No body response but the attribute "is_complete" should be =true

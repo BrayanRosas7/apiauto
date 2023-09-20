@@ -1,2 +1,0 @@
-curl --location --request DELETE "https://api.todoist.com/rest/v2/tasks/$id_task" --header "Authorization: Bearer $ToDo_Token"
-
