@@ -1,7 +1,7 @@
-import unit_test
+import unittest
 
 
-class TestProject(unit_test.TestCase):
+class TestProject(unittest.TestCase):
 
     # fixture
     def setUp(self):
